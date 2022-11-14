@@ -1,5 +1,47 @@
 # Realtime-Chat-App-with-react-and-express
 
+## Installation and How to run:
+
+Create an empty folder, with any name. Inside that folder create two more folders for backend and frontend, separately.
+
+<h4>Server Side:</h4>
+
+```js
+    cd backend
+```
+
+```js
+    npm init -y
+```
+
+```js
+    npm install bcrypt cors crypto dotenv express getstream nodemon stream-chat twilio
+```
+
+```js
+    npm run dev
+```
+
+For process.env's file you have to create stream and twilio account and from there you have to put <b> accountSid, authToken, messagingServiceSid, api_key, api_secret, app_id and apiKey </b> value inside your application.
+
+<h4>Client Side:</h4>
+
+```js
+    cd frontend
+```
+
+```js
+    npx create-react-app ./
+```
+
+```js
+    npm install axios stream-chat universal-cookie stream-chat-react@9.5.2
+```
+
+```js
+    npm start
+```
+
 ## Description of this application:
 
 <p>Here, I have built a realtime chat application using react, express, stream-chat and twilio sms service. In this application user can do sign up/sign in and they can comunicate with each other. They can create channels for group chat or for direct message. They can send emojis, files, gif or any other attachments. They can reply or react each others messages etc. </p>
